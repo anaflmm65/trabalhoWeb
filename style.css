@@ -1,0 +1,17 @@
+body{
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 8fr 2fr 4fr;/*fraciona na tela*/
+    grid-column-gap: 5px;/*cria espaços entre os colunas*/
+    grid-row-gap: 5px;/*cria espaços entre as linhas*/
+}
+.item{
+    background-color: blue;
+    color: aliceblue;
+    padding: 40px 20px;
+    text-align: center;
+}
